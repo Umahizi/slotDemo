@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+        <head>
+                <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+                <meta charset="utf-8"/>
+                <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        </head>
+    <body>
+        <div id = "debug_menu">
+            <div id ="show_debug_menu" class = "debug_btn">Debug</div>
+            <div id = "debugForm" class = "invisible">
+                    <label for="select_reel_1" >Select Symbol for reel 1</label>
+                    <select id = "select_reel_1" name="symbolList_reel1" > </select>
+                        
+                    <label for="select_position_1" >Select Symbol position for reel 1</label>
+                    <select id = "select_position_1" name="position_list_1" > </select>
+
+                    <label for="select_reel_2" >Select Symbol for reel 2</label>
+                    <select id = "select_reel_2" name="symbolList_reel2" > </select>
+                         
+                    <label for="select_position_2" >Select Symbol position for reel 2</label>
+                    <select id = "select_position_2" name="position_list_2" > </select>
+
+                    <label for="select_reel_3" >Select Symbol for reel 3</label>
+                    <select id = "select_reel_3" name="symbolList_reel3" > </select>
+                         
+                    <label for="select_position_3" >Select Symbol position for reel 3</label>
+                    <select id = "select_position_3" name="position_list_3" >  </select>
+                    <div id="send_debug" class = "debug_btn"> Send</div>
+            </div>
+        </div>
+        <div id = "balance">
+                <p id ='balance_label'>Balance:$</p>
+                <input type="number" value = "0" id ="balance_amount">
+        </div>
+        <div id = "navigation">
+            <div id = "stake">
+                <div class = "stake_btn" id = "btn_stake_up"></div>
+                <div id = "stake_view"></div>
+                <div class = "stake_btn" id = "btn_stake_down"></div>
+            </div>
+            <div id = "score"></div>
+            <div id = "spinBtn">
+                <button id="btn_spin"></button>
+            </div>
+        </div>
+        <script  src="scripts/lib/signals.min.js"></script>
+        <script  src="scripts/lib/pixi.min.js"></script>
+        <script  src="scripts/lib/TweenMax.min.js"></script>
+        <script type="module">
+            import {start} from './app.js';
+            start();
+          </script>
+
+
+    </body>
+</html>
