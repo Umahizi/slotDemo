@@ -1,0 +1,307 @@
+{
+	"frames": {
+		"./backGround": {
+			"frame": {
+				"h": 768,
+				"w": 1024,
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 768,
+				"w": 1024,
+				"x": 0,
+				"y": 0
+			},
+			"sourceSize": {
+				"h": 768,
+				"w": 1024
+			},
+			"trimmed": false
+		},
+		"./pay_table_00": {
+			"frame": {
+				"h": 53,
+				"w": 260,
+				"x": 0,
+				"y": 770
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 53,
+				"w": 260,
+				"x": 11,
+				"y": 3
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_01": {
+			"frame": {
+				"h": 53,
+				"w": 258,
+				"x": 0,
+				"y": 825
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 53,
+				"w": 258,
+				"x": 13,
+				"y": 0
+			},
+			"sourceSize": {
+				"h": 59,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_02": {
+			"frame": {
+				"h": 53,
+				"w": 260,
+				"x": 262,
+				"y": 770
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 53,
+				"w": 260,
+				"x": 12,
+				"y": 2
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_03": {
+			"frame": {
+				"h": 52,
+				"w": 250,
+				"x": 0,
+				"y": 880
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 52,
+				"w": 250,
+				"x": 13,
+				"y": 5
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_04": {
+			"frame": {
+				"h": 47,
+				"w": 244,
+				"x": 506,
+				"y": 825
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 47,
+				"w": 244,
+				"x": 13,
+				"y": 7
+			},
+			"sourceSize": {
+				"h": 59,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_05": {
+			"frame": {
+				"h": 56,
+				"w": 244,
+				"x": 260,
+				"y": 825
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 56,
+				"w": 244,
+				"x": 13,
+				"y": 2
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_06": {
+			"frame": {
+				"h": 50,
+				"w": 244,
+				"x": 260,
+				"y": 883
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 50,
+				"w": 244,
+				"x": 14,
+				"y": 8
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_07": {
+			"frame": {
+				"h": 40,
+				"w": 246,
+				"x": 0,
+				"y": 934
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 40,
+				"w": 246,
+				"x": 12,
+				"y": 13
+			},
+			"sourceSize": {
+				"h": 59,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./pay_table_08": {
+			"frame": {
+				"h": 48,
+				"w": 240,
+				"x": 524,
+				"y": 770
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 48,
+				"w": 240,
+				"x": 13,
+				"y": 9
+			},
+			"sourceSize": {
+				"h": 60,
+				"w": 306
+			},
+			"trimmed": true
+		},
+		"./symbol_01": {
+			"frame": {
+				"h": 60,
+				"w": 83,
+				"x": 766,
+				"y": 885
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 60,
+				"w": 83,
+				"x": 30,
+				"y": 31
+			},
+			"sourceSize": {
+				"h": 121,
+				"w": 141
+			},
+			"trimmed": true
+		},
+		"./symbol_02": {
+			"frame": {
+				"h": 92,
+				"w": 83,
+				"x": 609,
+				"y": 874
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 92,
+				"w": 83,
+				"x": 30,
+				"y": 15
+			},
+			"sourceSize": {
+				"h": 121,
+				"w": 141
+			},
+			"trimmed": true
+		},
+		"./symbol_03": {
+			"frame": {
+				"h": 121,
+				"w": 83,
+				"x": 857,
+				"y": 770
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 121,
+				"w": 83,
+				"x": 30,
+				"y": 0
+			},
+			"sourceSize": {
+				"h": 121,
+				"w": 141
+			},
+			"trimmed": true
+		},
+		"./symbol_04": {
+			"frame": {
+				"h": 113,
+				"w": 89,
+				"x": 766,
+				"y": 770
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 113,
+				"w": 89,
+				"x": 29,
+				"y": 5
+			},
+			"sourceSize": {
+				"h": 121,
+				"w": 141
+			},
+			"trimmed": true
+		},
+		"./symbol_05": {
+			"frame": {
+				"h": 98,
+				"w": 101,
+				"x": 506,
+				"y": 874
+			},
+			"rotated": false,
+			"spriteSourceSize": {
+				"h": 98,
+				"w": 101,
+				"x": 19,
+				"y": 11
+			},
+			"sourceSize": {
+				"h": 121,
+				"w": 141
+			},
+			"trimmed": true
+		}
+	},
+	"meta": {
+		"image": "sprites.png"
+	}
+}

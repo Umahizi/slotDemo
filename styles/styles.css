@@ -1,0 +1,138 @@
+#btn_spin {
+    /* display: inline-block; */
+    background: none;
+    border: none;
+    float: right;
+    width:124px ;
+    height:124px ;
+    /* position: relative; */
+    /* left:1024px; */
+
+}
+
+#btn_spin:hover img{
+ 
+    transform: rotate(60deg)
+}
+
+#btn_spin:active{
+    opacity: 0.5;
+    
+}
+
+
+#btn_spin:active img{
+    transform: scale(0.9,0.9);
+}
+
+
+
+#balance{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    top:150px;
+    left:550px;
+    cursor: pointer;
+}
+
+#balance_label{
+    display: inline;
+    /* position: relative; */
+    /* top:5px; */
+    padding: 10px;
+}
+
+#balance_label,#balance_amount
+{
+    position: relative;
+    top:10px;
+}
+
+#balance:hover.invisible{
+    /* text-align: left;
+    */
+    display: inline;
+}
+
+
+#balance_amount{
+    background-color: black;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+#score,#balance{
+    background: black;
+}
+
+#score{
+    float: left;
+    width: 400px;
+    height: 41px;
+    border: 5px solid pink;
+    margin-left: 450px;
+    margin-top: 50px;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: gold;
+}
+
+#navigation{
+    width: 1000px;
+    display: block;
+    position: absolute;
+    top:600px;
+}
+
+
+#debug_menu{
+    position: absolute;
+    top:0;
+    background-color: black;
+}
+
+#debug_menu *,#balance *{
+    color: green;
+    font-size: 1pc;
+    font-family: Tahoma;
+    font-style: bold;
+}
+
+#show_debug_menu{
+    position: relative;
+    color: green;
+    text-align: center;
+    padding: 15px;
+    /* width: 100px; */
+    height: 20px;
+}
+
+.debug_btn {
+    cursor: pointer;
+}
+
+#debugForm
+{
+    position: relative;
+    width: 250px;
+    /* height: 400px; */
+}
+
+#send_debug{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+#debugForm *{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
