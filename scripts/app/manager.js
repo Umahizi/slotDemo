@@ -9,6 +9,7 @@ let instance = null;
 let Manager = class {
     constructor()
     {
+        console.log("test");
         if(instance === null )
         {
             instance = this;
